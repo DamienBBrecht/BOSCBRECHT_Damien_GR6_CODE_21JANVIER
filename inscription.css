@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: black;
+    height: 25vh;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    width: 80%;
+    margin: 80px auto;
+}
+form{
+    border: 1px solid rgb(0, 0, 0);
+}
+form > div{
+    margin: 30px 20px;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    height: 20px;
+    width: 40%;
+}
+button{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+.message-error{
+    border: 1px solid rgba(212, 42, 0, 1);
+    color: rgb(212, 42, 0);
+    background-color:rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+.message-success{
+    border: 1px solid rgb(81, 150, 2);
+    color: rgb(81, 150, 2);
+    background-color:rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+.message-error.visible{
+    display: block;
+}
+
+.message-success{
+    display: block;
+}
+
+.RETOUR{
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #eaeaea;
+   
+    text-decoration: none;
+    color: #ff0000;
+    border: none;
+}
+
+.tabs{
+    display: flex;
+    margin-bottom: 40px;
+}
+.tabs-button{
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #ff0000;
+    color: #000000;
+    border: none;
+}
+.tab-content{
+    display: none;
+}
+.tab-content.active{
+    display: block;
+}
+
+
+body.dark-mode{
+    background-color: #000000;
+    color: #ffffff;
+}
+nav, footer{
+    background-color: #ffffff;
+}
+

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>DarkSoulsFANDOM</title>
+</head>
+<body>
+
+    <script src="main.js"></script>
+
+    <header>
+       <h1>DARKSOULS</h1>
+
+       <h3>FANDOM</h3>
+    </header>
+
+    <nav>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="img/SLIDE1.jpeg" alt="image1">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img/SLIDE2.jpg" alt="image2">
+              </div>
+              <div class="swiper-slide">
+                  <img src="img/SLIDE3.jpg" alt="image3">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+      </div>    
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script>
+        var swiper = new Swiper(".mySwiper", {
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+        });
+        </script>
+
+
+    </nav>
+
+    <main>
+        <section class="accordeon">
+            <div class="titre">
+            <p>Contenu des cours DW</p>
+            <img src="img/PERSOPP.jpg" alt="Fleche">
+            </div>
+            <div class="contenu">
+                <ul>
+                    <li>algo</li>
+                    <li>html/css</li>
+                    <li>javascript</li>
+                    <li>php/mysql</li>
+                    <li>réseau</li>
+                </ul>
+            </div>
+            </section>
+            <section class="accordeon">
+                <div class="titre">
+                    <p>Contenu des cours CDEB</p>
+                    <img src="img/PERSOPP.jpg" alt="Fleche">
+                </div>
+            <div class="contenu">
+                <ul>
+                    <li>marketing</li>
+                    <li>communication</li>
+                    <li>webmarketing</li>
+                    <li>brend content</li>
+                    <li>content marketing</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="lien">
+            <a class="A" href="file:///C:/Users/damie/Desktop/Cr%C3%A9ations%20Travail/JAVASCRIPT%201/BOSCBRECHT_Damien_GR6_CODE_21JANVIER/inscription.html">Nous rejoindre</a>
+            <a class="B" href="https://fr.wikipedia.org/wiki/Dark_Souls">Histoire</a>
+            <a class="C" href="https://fr.wikipedia.org/wiki/Dark_Souls">Apprendre à vous proteger</a>
+            <a class="D" href="https://www.fromsoftware.jp/ww/">Encore plus...</a>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

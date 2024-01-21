@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <title>DarkSoulsFANDOM_Inscription</title>
+</head>
+<body>
+    <script src="inscription.js"></script>
+    <header>
+        <h1>DARKSOULS</h1>
+ 
+        <h3>FANDOM</h3>
+     </header>
+    <nav>
+         
+    <div class="message-error">
+        <ul></ul>
+    </div>
+    <div class="message-success">
+    </div>
+    <form action="" methode="POST" enctype="multipart/form-data">
+        <div>
+            <label for="PSEUDO">Selectionne Pseudo</label>
+            <select name="nom" id="">
+                 <option value="Erica"> LEvOYeur</option>
+                 <option value="Amandine">FrancoisPop</option>
+                 <option value="Louise">LILitHo69</option>
+                 <option value="Robert">USMEXICWALL</option>
+                 <option value="Gwen">JesusdelaGRANDETOUR</option>
+    </select>
+
+           
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        </div>
+        <div>
+            <label for="password2">Entrer à nouveau le mot de passe</label>
+            <input type="password" name="password2" id="password2">
+        </div>
+        <button type="submit">S'inscires</button>
+    </form>   
+    </nav>
+
+
+    <main>
+        <div class="tabs">
+            <button class="tab-button" onclick="onpenTab('tab1')">QUI?</button>
+            <button class="tab-button" onclick="openTab('tab2')">POURQUOI,</button>
+            <button class="tab-button" onclick="openTab('tab3')">COMMENT?,</button>
+            <a class="RETOUR" href="file:///C:/Users/damie/Desktop/Cr%C3%A9ations%20Travail/JAVASCRIPT%201/BOSCBRECHT_Damien_GR6_CODE_21JANVIER/index.html">RETOUR</a>
+
+        </div>
+        <div id="tab1" class="tab-content">
+         
+        </div>
+        <div id="tab2" class="tab-content">
+
+        </div>
+        <div id="tab3" class="tab-content">
+
+        </div>
+    </main>
+
+
+    <footer>
+        <button id="toggleDarkMode">Dark Mode</button>
+    </footer>
+</body>
+</html>
